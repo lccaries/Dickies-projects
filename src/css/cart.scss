@@ -71,9 +71,9 @@ a {
                 height: 130px;
                 width: 300px;
                 float: left;
-                .sub{float: left;height: 20px;width: 20px;background-color: #cccccc;font-size: 20px;text-align: center;line-height: 20px;}
+                .sub{float: left;height: 20px;width: 20px;background-color: #cccccc;font-size: 20px;text-align: center;line-height: 20px;cursor: pointer;}
                 input{float: left;height: 16px;width: 40px;text-align: center;}
-                .add{float: left;height: 20px;width: 20px;background-color: #cccccc;font-size: 20px;text-align: center;line-height: 20px;}
+                .add{float: left;height: 20px;width: 20px;background-color: #cccccc;font-size: 20px;text-align: center;line-height: 20px;cursor: pointer;}
             }
             li:nth-child(3){
                 float: left;
