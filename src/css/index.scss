@@ -1,0 +1,78 @@
+@import "module/header";
+@import "module/footer";
+
+* {
+  padding: 0;
+  margin: 0; }
+ul li {
+  list-style: none; }
+a {
+  text-decoration: none; }
+#main{width: 100%;min-height:2500px;
+	 #banner{
+		 width: 100%;
+		 height: 900px;
+		 
+	 }
+	#main-wrap{
+		width: 100%;
+		#TOPIC{
+			position: relative;
+			width: 1000px;height: 610px;margin: 0 auto;
+			border-top:2px solid #767676;
+			span{position: absolute;left: 440px;top: -50px;background: url(/images/topic.jpg);width: 119px;height: 84px;}
+			img{float: left;width: 306px;margin-top:30px;}
+			a:nth-child(3) img{margin-left:41px; }
+			a:nth-child(4) img{margin-left:41px; }
+		}
+		#shopItems{
+			width: 100%;
+			margin-bottom: 50px;
+			#shop-top{
+				width: 1000px;
+				height: 35px;
+				background: #000000;
+				margin: 0 auto;
+				p{font-size: 14px;float: left;margin:7px 20px;color: #ffffff;}
+				a{float: right;margin-top:7px;color: #ffffff;}
+			}
+			#shop-item{
+				width: 1000px;
+				margin: 0 auto;
+				ul{
+					width: 1000px;
+					display: flex;
+					flex-wrap: wrap;
+					flex-direction:row;
+					justify-content: space-between;
+					li{ 
+						width: 215px;height: 375px;
+						.img-i{width: 215px;height: 270px;}
+						.d-img{width: 215px;height: 20px;
+								img{padding-right: 10px;}
+						}
+						.d-title{width: 215px;height: 40px;
+								span{font-size: 16px;}
+						}
+						.d-sale{width: 215px;height: 45px;
+								p{float: left;font-size: 16px;}
+								span{float:right;font-size: 16px;}
+						}
+					}
+				}
+			}
+		}
+		#MZ{
+			position: relative;
+			width: 1000px;height: 465px;margin: 0 auto;
+			border-top:2px solid #767676;
+			span{position: absolute;left: 440px;top: -48px;background: url(/images/MZ.jpg);width: 129px;height: 84px;}
+			img{float: left;width: 150px;margin-top:40px;}
+			a:nth-child(3) img{margin-left:20px; }
+			a:nth-child(4) img{margin-left:20px; }
+			a:nth-child(5) img{margin-left:20px; }
+			a:nth-child(6) img{margin-left:20px; }
+			a:nth-child(7) img{margin-left:20px; }
+		}
+	}
+ }
